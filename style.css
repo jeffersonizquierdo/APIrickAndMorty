@@ -1,0 +1,53 @@
+body{
+    background-image: url("./fondo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40rem;
+    height: 30rem;
+    align-items: center;
+    color: rgb(20, 32, 44);
+    font-size: 25px;
+    background-color: rgb(92, 156, 178);
+    border-radius: 10%;
+    -webkit-box-shadow: -1px 10px 87px 13px rgba(11,69,71,1);
+    -moz-box-shadow: -1px 10px 87px 13px rgba(11,69,71,1);
+    box-shadow: -1px 10px 87px 13px rgba(11,69,71,1);
+    margin: 1rem;
+    }
+h1{
+    margin-left: 30pc;
+    font-size: 80px;
+    color: rgb(6, 44, 44);
+}
+
+img{
+width: 350px;
+}
+
+.inputSearch{
+
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    margin-left:275px ;
+    margin-bottom: 40px;
+    background-color: rgb(100, 149, 153);
+    border-radius: 20px;
+    
+
+}
